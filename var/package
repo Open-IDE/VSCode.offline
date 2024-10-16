@@ -2,21 +2,14 @@ name=code
 
 type=snap
 
-version=170
+snap_classic=true
 
-package=${name}_170
+snap_depend_classic=true
+
+package=(
+    "${name}"
+)
 
 depends=(
     "core20"
 )
-
-package=(
-    "libapr1t64"
-    "libaprutil1t64"
-    "libaprutil1-dbd-sqlite3"
-    "libaprutil1-ldap"
-    "apache2-bin"
-    "apache2-data"
-    "apache2-utils"
-    "apache2_"
-    )
