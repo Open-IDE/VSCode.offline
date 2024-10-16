@@ -1,0 +1,24 @@
+repo="VSCode.offline"
+
+name=code
+
+type=snap
+
+version=170
+
+package=${name}_170
+
+depends=(
+    "core20"
+)
+
+package=(
+    "libapr1t64"
+    "libaprutil1t64"
+    "libaprutil1-dbd-sqlite3"
+    "libaprutil1-ldap"
+    "apache2-bin"
+    "apache2-data"
+    "apache2-utils"
+    "apache2_"
+    )
