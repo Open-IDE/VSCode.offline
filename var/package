@@ -1,10 +1,12 @@
 name=code
 
+bin=${name}
+
 type=snap
 
 snap_classic=true
 
-snap_depend_classic=true
+snap_depend_classic=false
 
 package=(
     "${name}"
